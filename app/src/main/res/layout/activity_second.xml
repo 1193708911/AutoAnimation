@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="supersports.com.myapplication.SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_ba"
+            android:transitionName="sharedView" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="当我们打开世界地图，把目光聚焦于南美洲之时，你会在第一时间被智利这个国家所吸引。原因无他，智利的国土形态实在过于奇特，呈长条形的狭长疆土，几乎突破了固有观念中对于一国家领域的认知，那么我们不禁要问，这种情况是怎样出现的呢？" />
+    </LinearLayout>
+
+</LinearLayout>
